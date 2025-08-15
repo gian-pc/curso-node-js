@@ -1,3 +1,9 @@
+// Esto sólo en los módulos nativos
+// que no tienen promesas nativas
+
+// const { promisify } = require('node:util')
+// const readFilePromise = promisify(fs.readFile)
+
 /**
  * En vez de utilizar Callbacks ahora se utiliza Promesas
  * Todo: El resultado será el igual
